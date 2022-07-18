@@ -24,6 +24,7 @@ body {
   font-size: 18px;
   font-family: "DM Sans", sans-serif;
   background-color: var(--cream);
+  height: 100vh;
 }
 
 .attribution {
@@ -160,5 +161,8 @@ main .head {
   section {
     max-width: 550px;
     margin: auto;
+  }
+  .container {
+        margin-top: 10vh;
   }
 }
