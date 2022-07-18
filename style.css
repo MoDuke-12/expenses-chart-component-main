@@ -41,6 +41,7 @@ body {
   margin-right: auto;
   margin-left: auto;
   padding: 2vw;
+  margin-top: 10vh;
 }
 li,
 ol {
@@ -162,7 +163,5 @@ main .head {
     max-width: 550px;
     margin: auto;
   }
-  .container {
-        margin-top: 10vh;
-  }
+ 
 }
