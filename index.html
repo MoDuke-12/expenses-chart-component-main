@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Expenses chart component</title>
+
+  <link rel="stylesheet" href="style.css">
+  <style>
+
+  </style>
+</head>
+
+<body>
+
+  <main>
+    <div class="container">
+      <section>
+        <div class="head">
+          <div class="text">
+            <h5 class="sub-head">My balance</h5>
+            <h2 class="main-head">$921.48</h2>
+          </div>
+          <div class="log">
+            <svg width="60" height="40" viewBox="0 0 72 48" xmlns="http://www.w3.org/2000/svg">
+              <g fill="none" fill-rule="evenodd">
+                <circle fill="#382314" cx="48" cy="24" r="24" />
+                <circle stroke="#FFF" stroke-width="2" cx="24" cy="24" r="23" />
+              </g>
+            </svg>
+          </div>
+        </div>
+
+        <div class="body">
+          <div class="chart-area">
+            <h3 class="chart-head">Spending - Last 7 days</h3>
+            <div class="charts" id="charts">
+              <ul>
+
+                <li class="chart" day="mon">
+                  <span class="amount"></span>
+                </li>
+                <li class="chart active" day="tue">
+                  <span class="amount"></span>
+                </li>
+                <li class="chart"><span class="amount"></span>
+                </li>
+                <li class="chart"> <span class="amount"></span>
+                </li>
+                <li class="chart" day="fri">
+                  <span class="amount"></span>
+                </li>
+                <li class="chart" day="sat">
+                  <span class="amount"></span>
+                </li>
+                <li class="chart" day="sun">
+                  <span class="amount"></span>
+                </li>
+              </ul>
+              <ul>
+                <li class="day">mon</li>
+                <li class="day">tue</li>
+                <li class="day">wed</li>
+                <li class="day">thu</li>
+                <li class="day">fri</li>
+                <li class="day">sat</li>
+                <li class="day">sun</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="total">
+            <div class="current-month">
+              <span class="sub-head">Total this month</span>
+              <h1>$478.33</h1>
+            </div>
+            <div class="last-month">
+              <h4>+2.4%</h4>
+              <span class="sub-head"> from last month</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Fizo Duke</a>.
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
