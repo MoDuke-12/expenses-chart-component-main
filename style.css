@@ -158,7 +158,7 @@ main .head {
 
 @media screen and (min-width: 500px) {
   section {
-    max-width: 450px;
+    max-width: 550px;
     margin: auto;
   }
 }
